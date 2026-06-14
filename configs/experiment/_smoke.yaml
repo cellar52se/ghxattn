@@ -1,0 +1,19 @@
+# @package _global_
+# for unit-test smoke only; do not use for reporting
+defaults:
+  - override /train: _smoke
+
+experiment:
+  name: smoke
+  eval_batch_size: 8
+model:
+  d_model: 32
+  n_oct: 28
+  raw_dim: 16
+  cross_heads: 4
+  weft_heads: 4
+  weft_layers: 2
+data:
+  n_per_site: 16
+  pretrain_eyes: 8
+  max_visits: 4

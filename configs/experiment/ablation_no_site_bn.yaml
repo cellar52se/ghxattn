@@ -1,0 +1,5 @@
+# @package _global_
+experiment:
+  name: ablation_no_site_bn
+model:
+  use_site_bn: false

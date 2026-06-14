@@ -1,0 +1,5 @@
+# @package _global_
+experiment:
+  name: ablation_no_gh_prior
+model:
+  use_gh: false

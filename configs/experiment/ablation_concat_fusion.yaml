@@ -1,0 +1,5 @@
+# @package _global_
+experiment:
+  name: ablation_concat_fusion
+model:
+  fusion_mode: concat

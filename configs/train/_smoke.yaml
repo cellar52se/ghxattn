@@ -1,0 +1,11 @@
+lr: 3.0e-4
+weight_decay: 1.0e-2
+batch_size: 8
+max_epochs: 3
+warmup_steps: 2
+lambda_site: 0.1
+lambda_kd: 0.1
+beta_ramp_epochs: 1
+pretrain_epochs: 1
+early_stop_patience: 3
+grad_clip: 1.0

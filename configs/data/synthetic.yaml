@@ -1,0 +1,10 @@
+n_per_site: 400
+pretrain_eyes: 300
+cal_fraction: 0.2
+holdout: GRAPE
+min_visits: 3
+max_visits: 7
+healthy_db: 30.0
+damage_to_slope: 0.9
+base_decline: 0.15
+noise: 0.4

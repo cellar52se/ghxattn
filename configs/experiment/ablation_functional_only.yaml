@@ -1,0 +1,5 @@
+# @package _global_
+experiment:
+  name: ablation_functional_only
+model:
+  branch: functional

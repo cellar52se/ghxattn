@@ -1,0 +1,10 @@
+defaults:
+  - _self_
+  - model: ghxattn
+  - data: synthetic
+  - train: main
+  - experiment: main
+
+seed: 42
+command: weave
+output_dir: outputs

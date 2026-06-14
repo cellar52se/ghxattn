@@ -1,0 +1,5 @@
+# @package _global_
+experiment:
+  name: ablation_ordinal_time
+model:
+  use_temporal_dt: false

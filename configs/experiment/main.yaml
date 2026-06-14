@@ -1,0 +1,6 @@
+# @package _global_
+experiment:
+  name: main
+  alpha: 0.10
+  tau: 0.5
+  eval_batch_size: 32

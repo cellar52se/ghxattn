@@ -1,0 +1,5 @@
+# @package _global_
+experiment:
+  name: ablation_no_residual
+model:
+  use_residual: false
